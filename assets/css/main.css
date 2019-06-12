@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 18vh;
+    background-color: black;
+    padding-top: 10px;
+}
+
+nav > a {
+    color: white;    
+    float: right;
+    padding: 10px;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero {
+    background-image: url("https://media.viajando.travel/adjuntos/236/imagenes/000/046/0000046510.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-titles {
+    color: white;    
+    text-align: center;
+    margin-top: 5%;    
+}
+
+.portada-input {
+    color: white;
+    margin: 15%;
+}
+
+.opciones-titles {
+    text-align: center;
+}
+
+.opciones {
+    width: 200px;
+    height: 320px;
+}
+
+.flex-box{
+    display: flex;
+    flex-flow: wrap;    
+}
+
+.box {   
+    width: 25vw;
+    margin: 10px;
+    text-align: center;
+}
+
+.places{
+    width: 300px;
+}
